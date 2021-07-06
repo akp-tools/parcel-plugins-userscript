@@ -1,0 +1,24 @@
+{
+  "name": "@akp-tools/parcel-config-userscript",
+  "version": "0.0.1",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akp-tools/parcel-userscript.git"
+  },
+  "main": "index.json",
+  "engines": {
+    "node": ">= 12.0.0",
+    "parcel": "^2.0.0-beta.1"
+  },
+  "scripts": {
+    "build": "echo 'no build step'"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@akp-tools/parcel-optimizer-userscript": "0.0.1"
+  }
+}

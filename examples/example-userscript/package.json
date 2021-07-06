@@ -1,0 +1,37 @@
+{
+  "name": "@akp-tools/example-userscript",
+  "version": "0.0.1",
+  "license": "MIT",
+  "userscript": "lib/example.user.js",
+  "source": "src/example.user.js",
+  "targets": {
+    "userscript": {
+      "context": "browser",
+      "distDir": "lib",
+      "includeNodeModules": true,
+      "isLibrary": false,
+      "optimize": true,
+      "outputFormat": "commonjs",
+      "scopeHoist": true,
+      "sourceMap": false
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akp-tools/parcel-userscript.git"
+  },
+  "browserslist": [
+    "defaults",
+    "not IE 11"
+  ],
+  "scripts": {
+    "build": "parcel build src/example.user.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@akp-tools/parcel-optimizer-userscript": "0.0.1"
+  }
+}

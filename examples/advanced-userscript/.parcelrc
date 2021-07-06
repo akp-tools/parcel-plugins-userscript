@@ -1,0 +1,3 @@
+{
+  "extends": "@akp-tools/parcel-config-userscript"
+}

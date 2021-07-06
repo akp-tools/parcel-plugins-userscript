@@ -1,0 +1,12 @@
+{
+  "name": "@akp-tools/userscript-monorepo",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "examples/*"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.0.0-nightly.752"
+  }
+}
