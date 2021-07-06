@@ -28,7 +28,8 @@
     "not IE 11"
   ],
   "scripts": {
-    "build": "parcel build src/advanced.user.ts"
+    "build": "parcel build src/advanced.user.ts",
+    "prepublishOnly": "yarn build"
   },
   "dependencies": {
     "date-fns": "^2.22.1"

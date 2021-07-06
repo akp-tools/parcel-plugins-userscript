@@ -28,9 +28,9 @@
     "not IE 11"
   ],
   "scripts": {
-    "build": "parcel build src/example.user.js"
+    "build": "parcel build src/example.user.js",
+    "prepublishOnly": "yarn build"
   },
-  "dependencies": {},
   "devDependencies": {
     "@akp-tools/parcel-optimizer-userscript": "0.0.1"
   }

@@ -16,7 +16,8 @@
     "parcel": "^2.0.0-beta.1"
   },
   "scripts": {
-    "build": "parcel build ."
+    "build": "parcel build .",
+    "prepublishOnly": "yarn build"
   },
   "dependencies": {
     "@parcel/plugin": "^2.0.0-alpha.3"

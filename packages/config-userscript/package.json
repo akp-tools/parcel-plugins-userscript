@@ -17,7 +17,6 @@
   "scripts": {
     "build": "echo 'no build step'"
   },
-  "dependencies": {},
   "devDependencies": {
     "@akp-tools/parcel-optimizer-userscript": "0.0.1"
   }
